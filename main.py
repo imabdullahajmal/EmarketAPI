@@ -82,5 +82,5 @@ def delete_item(item_id:UUID):
 #Start the server and run the app on server 8001
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app, host='localhost', port=8001)
+    uvicorn.run(app, host='localhost', port=80)
 
